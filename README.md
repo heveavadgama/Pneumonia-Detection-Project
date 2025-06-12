@@ -47,11 +47,14 @@ This project leverages deep learning to classify chest X-ray images into **Norma
 
 On testing with a viral pneumonia image:
 
-```bash
 Predicted Class: VIRAL_PNEUMONIA
 
 Class Probabilities:
   BACTERIAL_PNEUMONIA: 0.1248
   NORMAL: 0.0012
   VIRAL_PNEUMONIA: 0.8740
+
+
+📌 Conclusion
+This project successfully demonstrates that deep learning, particularly ResNet50 with FastAI, can be effectively used to classify chest X-rays into 3 medical categories. The results show promising accuracy, especially in differentiating normal vs pneumonia cases, and set the foundation for deploying AI assistance in radiology diagnostics.
 
